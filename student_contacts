@@ -1,0 +1,15 @@
+//STUDENT CONTACT FILE
+
+var test={
+    
+    'Brandon':{
+      'email':'brandon@gmail.com',
+      'meetingDate':'Sunday',
+      'meetingTime':'2-3pm'
+    },
+    'Don':{
+      'email':'don@gmail.com',
+      'meetingDate':'Sunday',
+      'meetingTime':'3-4pm'
+    },
+}
