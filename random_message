@@ -1,0 +1,15 @@
+//RANDOM MESSAGE FILE 
+
+var randomMessage={
+  "0":"How do you feel about the amount of homework this week; is it manageable?",
+  "1":"Have you been spacing out the work over the course of the week?",
+  "2":"Do you need any materials?",
+  "3":"How are you handling the workload?",
+  "4":"How much progress have you made on this week's homework?",
+  "5":"Are you managing the workload?",
+  "6":"Do you have any questions?",
+  "7":"Are there any materials that you need?",
+  "8":"Do you have enough time this week to finish your work?",
+  "9":"Can you finish all of this week's homework? "
+  
+}
