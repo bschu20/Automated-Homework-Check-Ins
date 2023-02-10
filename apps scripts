@@ -1,0 +1,273 @@
+//APPS SCRIPTS CODE
+
+
+
+function hwSundayStudents(){
+  counter=0
+    for(const item in studentsSunday){
+   // Logger.log('Item is: '+item)
+   
+    for(const item2 in studentsSunday[item]){
+      //Logger.log('Item2 is: '+ String(item2))
+      //Logger.log(students[item][item2])
+      if (item2=='email'){
+        var email=studentsSunday[item][item2]
+      }
+      
+    }
+  
+
+    //this function helps you generate a random number, which allows you to generate a random message for your meeting reminder 
+    var ranMes= bigFunction()
+    //console.log("This is 'ranMes': "+ranMes)
+
+
+    //you should call 'sendEmails()' from here and pass into it the above variables to be used within the email 
+    sendEmails(item,email,ranMes)
+    
+  }
+}
+
+ 
+
+
+function hwMondayStudents(){
+  counter=0
+    for(const item in studentsMonday){
+   // Logger.log('Item is: '+item)
+   
+    for(const item2 in studentsMonday[item]){
+      //Logger.log('Item2 is: '+ String(item2))
+      //Logger.log(students[item][item2])
+      if (item2=='email'){
+        var email=studentsMonday[item][item2]
+      }
+      
+    }
+  
+
+    //this function helps you generate a random number, which allows you to generate a random message for your meeting reminder 
+    var ranMes= bigFunction()
+    //console.log("This is 'ranMes': "+ranMes)
+
+
+    //you should call 'sendEmails()' from here and pass into it the above variables to be used within the email 
+    sendEmails(item,email,ranMes)
+    
+  }
+}
+
+
+
+function hwTuesdayStudents(){
+  counter=0
+    for(const item in studentsTuesday){
+   // Logger.log('Item is: '+item)
+   
+    for(const item2 in studentsTuesday[item]){
+      //Logger.log('Item2 is: '+ String(item2))
+      //Logger.log(students[item][item2])
+      if (item2=='email'){
+        var email=studentsTuesday[item][item2]
+      }
+      
+    }
+  
+
+    //this function helps you generate a random number, which allows you to generate a random message for your meeting reminder 
+    var ranMes= bigFunction()
+    //console.log("This is 'ranMes': "+ranMes)
+
+
+    //you should call 'sendEmails()' from here and pass into it the above variables to be used within the email 
+    sendEmails(item,email,ranMes)
+    
+  }
+}
+
+
+
+function hwWednesdayStudents(){
+  counter=0
+    for(const item in studentsWednesday){
+   // Logger.log('Item is: '+item)
+   
+    for(const item2 in studentsWednesday[item]){
+      //Logger.log('Item2 is: '+ String(item2))
+      //Logger.log(students[item][item2])
+      if (item2=='email'){
+        var email=studentsWednesday[item][item2]
+      }
+      
+    }
+  
+
+    //this function helps you generate a random number, which allows you to generate a random message for your meeting reminder 
+    var ranMes= bigFunction()
+    //console.log("This is 'ranMes': "+ranMes)
+
+
+    //you should call 'sendEmails()' from here and pass into it the above variables to be used within the email 
+    sendEmails(item,email,ranMes)
+    
+  }
+  }
+
+
+
+function hwThursdayStudents(){
+  counter=0
+    for(const item in studentsThursday){
+   // Logger.log('Item is: '+item)
+   
+    for(const item2 in studentsThursday[item]){
+      //Logger.log('Item2 is: '+ String(item2))
+      //Logger.log(students[item][item2])
+      if (item2=='email'){
+        var email=studentsThursday[item][item2]
+      }
+      
+    }
+  
+
+    //this function helps you generate a random number, which allows you to generate a random message for your meeting reminder 
+    var ranMes= bigFunction()
+    //console.log("This is 'ranMes': "+ranMes)
+
+
+    //you should call 'sendEmails()' from here and pass into it the above variables to be used within the email 
+    sendEmails(item,email,ranMes)
+    
+  }
+}
+
+
+function hwSaturdayStudents(){
+  counter=0
+    for(const item in studentsSaturday){
+   // Logger.log('Item is: '+item)
+   
+    for(const item2 in studentsSaturday[item]){
+      //Logger.log('Item2 is: '+ String(item2))
+      //Logger.log(students[item][item2])
+      if (item2=='email'){
+        var email=studentsSaturday[item][item2]
+      }
+      
+    }
+  
+
+    //this function helps you generate a random number, which allows you to generate a random message for your meeting reminder 
+    var ranMes= bigFunction()
+    //console.log("This is 'ranMes': "+ranMes)
+
+
+    //you should call 'sendEmails()' from here and pass into it the above variables to be used within the email 
+    sendEmails(item,email,ranMes)
+    
+  }
+}
+
+
+
+
+function bigFunction(){
+
+
+
+    function mathFloor(){
+        var number=(Math.random()*10).toString().split(".")[0];
+        //console.log(number);
+          return number;
+      }//ends function
+
+
+
+    function randomMessageFunction(randNum){
+      //console.log(randNum)
+        for(const i in Object.keys(randomMessage)){
+          //console.log(i)
+          if(i==randNum){
+            //console.log(randomMessage[i]);
+            return randomMessage[i]
+          }
+        //console.log(i)
+      }
+        }//ends function
+
+    var randNum=mathFloor()
+    var anotherMess=randomMessageFunction(randNum)
+    return anotherMess
+}
+
+
+
+
+
+
+
+
+
+
+
+function hwStudents(){
+    counter=0
+    for(const item in test){
+   // Logger.log('Item is: '+item)
+   
+    for(const item2 in test[item]){
+      //Logger.log('Item2 is: '+ String(item2))
+      //Logger.log(students[item][item2])
+      if (item2=='email'){
+        var email=test[item][item2]
+      }
+      
+    }
+  
+
+    //this function helps you generate a random number, which allows you to generate a random message for your meeting reminder 
+    var ranMes= bigFunction()
+    //console.log("This is 'ranMes': "+ranMes)
+
+
+    //you should call 'sendEmails()' from here and pass into it the above variables to be used within the email 
+    sendEmails(item,email,ranMes)
+    
+  }
+  
+   
+}
+
+
+
+
+
+//
+
+
+function sendEmails(item,email,ranMes) {
+  
+  //var image='https://api.time.com/wp-content/uploads/2021/10/GettyImages-577674005.jpg'
+  var emailAddress = email;
+  var subject = 'Homework Check-in';
+  var htmlTemp=HtmlService.createTemplateFromFile('emailTemp')
+
+  //************THIS IS HOW YOU ATTACH VARIABLES TO YOUR HTML FILE*********
+  htmlTemp.item=item;  
+
+  //************THIS IS HOW YOU ATTACH VARIABLES TO YOUR HTML FILE*********
+  htmlTemp.ranMes=ranMes;
+  var message=htmlTemp.evaluate().getContent()
+
+ MailApp.sendEmail(emailAddress, subject, message, {
+    htmlBody: message,
+    
+    
+  });
+   
+}
+
+
+
+
+
