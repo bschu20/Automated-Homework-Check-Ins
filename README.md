@@ -4,7 +4,7 @@ This program does the following:
 <br>
 --generates a random integer
 <br>
---matches said integer with one of <b>ten stored messages <b>
+--matches said integer with one of <b>ten stored messages </b>
 <br>
 --finds the students for a particular day and gets their name and email address
 <br>
